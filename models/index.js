@@ -21,7 +21,7 @@ Product.belongsToMany(Tag, {
     unique: false
   },
   // Define an alias for when data is retrieve
-  as: 'the_product_tag'
+  
 })
 
 
@@ -32,7 +32,7 @@ Tag.belongsToMany(Product, {
     unique: false
   },
   // Define and alias for when data is retrieve 
-  as: 'the_tag_product'
+  
 })
 
 module.exports = {
