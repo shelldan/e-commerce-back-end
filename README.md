@@ -31,14 +31,14 @@ SO THAT my company can compete with other e-commerce companies
 ```
 
 ## Screenshot
-![](assets/screenshot-1.png)
+![](assets/get-all-categories.png)
 
-![](assets/screenshot-2.png)
+![](assets/get-all-products.png)
 
-![](assets/screenshot-3.png)
+![](assets/get-all-tags.png)
 
 ## Video
-Check out the [walk-through video](https://drive.google.com/file/d/1Nf76T-5lzRhY82wQ1yTtrhEgAozTH50C/view?usp=sharing).
+Check out the [walk-through video](https://drive.google.com/file/d/11bwsXrGu2ddTO2htQ7Vn6opgRRQhVbKJ/view?usp=share_link).
 
 ## Installation
 To clone the repo:
@@ -46,6 +46,12 @@ To clone the repo:
 git clone https://github.com/shelldan/employee-tracker.git
 ``` 
 Run 'npm install' to install dependencies
+
+Run 'mysql.server start' to start MySQL
+
+Run 'mysql -u root -p' to connect MySQL
+
+Run 'SOURCE db/schema.sql;' to load the database
 
 Run 'npm seed' to plant the seed
 
